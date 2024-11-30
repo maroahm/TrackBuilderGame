@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RailWay</title>
+</head>
+<body>
+    <script src="index.js" defer    ></script>
+    <link rel="stylesheet" href="index.css">
+
+   
+    <div id="menu">
+        <h1 id="title">RAILWAYS</h1>
+        <input type="text" id="name" value="WHO ARE YOU">
+        <div id="gameInfo">
+            <div><h2>Set The Difficulty</h2></div>
+            <!-- <select id="Difficulty">
+                <option value="5x5">EASY</option>
+                <option value="7x7">DIFFICULT</option>
+            </select>
+             -->
+            <input type="radio" id="easy" name="Difficulty" value="5x5" checked>
+            <label for="easy">5x5</label>
+            <input type="radio" id="hard" name="Difficulty" value="7x7">
+            <label for="hard">7x7</label>
+
+            <div>
+                <input type="button" id="Rules" value="RULES">
+            </div>
+            <div>
+                <input type="button" value="START GAME"  id="Start">
+            </div>
+        </div>
+    </div> 
+    <!-- <table id="gameMap"></table> -->
+    <canvas width="1024" height="768"></canvas>
+
+</body>
+</html>
